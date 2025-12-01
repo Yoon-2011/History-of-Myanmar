@@ -1,0 +1,124 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+}
+header{
+    background-color: rgb(122, 102, 75);
+    text-align: center;
+    color: white;
+    height: 100px;
+}
+.FooterCol1{
+    background-color: rgb(200, 172, 137);
+    width: 50%;
+    border-right: 5px solid rgb(86, 71, 52) ;
+}
+.FooterCol1>a{
+    text-decoration: none;
+    color: rgb(0, 1, 1);
+}
+.FooterCol1{
+    box-sizing: border-box;
+    padding-left: 40px;
+    float: left;
+    padding: auto;
+}
+.col1, .col2, .col3{
+    box-shadow: 5px 5px 10px  rgb(154, 139, 120);
+    border: 2px solid rgb(86, 71, 52);
+    background-color: rgb(192, 171, 144);
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+.Col{
+    width: 30%; height: 475px;
+    box-shadow: 5px 5px 10px  rgb(154, 139, 120);
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    background-image: url("image/parchment.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+.COL1{
+    margin-left: 270px;
+    margin-right: 100px;
+
+
+}
+.Col>img{
+    width: 250px;
+    
+    border-radius: 10px;
+}
+.Col>button{
+    width: 100px;
+    margin-bottom: 10px;
+    height: 30px;
+    background-color: rgb(210, 184, 151);
+    border-radius: 5px;
+    border: 1px dashed rgb(155, 134, 106);
+}
+button>a{
+    text-decoration: none;
+    color: black;
+}
+.Col{
+    box-sizing:border-box ;
+    float: left;
+    padding: auto;
+    text-align: center;
+}
+.Col>h3{
+    
+   text-align: center;
+    
+}
+.Col>p{
+    text-align: left;
+}
+.footer{
+    background-color: rgb(176, 153, 119);
+    width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    float: left;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: block;
+        
+}
+.Column>img{
+    width: 50px;
+    margin: 50px;
+    
+}
+.Column{
+    width:33.33%;
+    box-sizing:border-box ;
+    float: left;
+    padding: auto;
+}
+li>a{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+.fa{
+    
+    text-decoration: none;
+    padding: 20px;
+    font-size: xx-large;
+    width: 50px;
+    text-align: center;
+    background-color: antiquewhite;
+    color: rgb(145, 121, 90);
+}
+

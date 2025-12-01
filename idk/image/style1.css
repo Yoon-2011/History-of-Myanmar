@@ -1,0 +1,166 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+}
+header{
+    background-color: rgb(122, 102, 75);
+    text-align: center;
+    color: white;
+    height: 100px;
+}
+header>h2{
+    padding-top: 5px;
+}
+.col1{
+   background-color: rgb(200, 172, 137);
+   border-right: 5px solid rgb(86, 71, 52) ;
+   width: 20%; height: auto;
+   color: black;
+}
+.col1{
+    box-sizing: border-box;
+    padding-left: 10px;
+    float: left;
+    padding: auto;
+}
+.row{
+    width: 1400px;
+    border-radius: 10px;
+    margin: 50px;
+    
+}
+.col{
+    box-shadow: 5px 5px 10px  rgb(154, 139, 120);
+    border: 2px solid rgb(86, 71, 52);
+    background-color: rgb(192, 171, 144);
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+.column1>img{
+    width: 70%;
+    border-radius: 20px;
+    padding-left: 50px;
+}
+.column2>img{
+    width: 70%;
+    border-radius: 20px;
+    padding-left: 50px
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.column1, .column2{
+    float: left;
+    height: 350px;
+    background-color:  rgb(192, 171, 144);
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid rgb(86, 71, 52);
+    box-shadow: 5px 5px 10px  rgb(154, 139, 120);
+    font-size: large;
+    border-radius: 10px;
+}
+.col1>a{
+    text-decoration: none;
+    color: black;
+}
+.row>h3{
+    text-align: center;
+    font-size: xx-large;
+}
+.img{
+    width: 45%;
+}
+.noimg{
+    width: 55%;
+}
+
+.column{
+    box-sizing: border-box;
+    width: 17%;
+    float: left;
+    padding: 10px;
+    margin: 20px;
+}
+.card>img{
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.card{
+    
+    background-color: rgb(192, 171, 144);
+    border: 2px solid rgb(86, 71, 52);
+    box-shadow: 5px 5px 10px rgb(154, 139, 120);
+    border-radius: 10px;
+}
+.card>p{
+    text-align: center;
+    padding: 5px;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+li{
+    margin: 10px;
+}
+.Column1>img{
+    width: 50px;
+    margin: 50px;
+    
+}
+.footer{
+    background-color: rgb(176, 153, 119);
+    width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    float: left;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.Column1{
+    width:33.33%;
+    box-sizing:border-box ;
+    float: left;
+    padding: auto;
+}
+li>a{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+.fa{
+    
+    text-decoration: none;
+    padding: 20px;
+    font-size: xx-large;
+    width: 50px;
+    text-align: center;
+    background-color: antiquewhite;
+    color: rgb(145, 121, 90);
+}
+button{
+    background-color: antiquewhite;
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 250px;
+}
+
+button>a{
+    text-decoration: none;
+    color: black;
+}
+
+
